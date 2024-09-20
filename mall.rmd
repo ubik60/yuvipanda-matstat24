@@ -1,0 +1,16 @@
+---
+title: "Uppgiften/uppgifternas namn"
+author: "Mitt Namn"
+output:
+    html_document: default
+    pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(flextable)
+theme_set(theme_light())
+```
+
+# Titel på första deluppgiften
